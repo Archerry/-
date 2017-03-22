@@ -44,6 +44,7 @@
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(stopTimer) name:@"stopTimer" object:nil];
     
     [self addImageToScroll];
+    [self startTimer];
 }
 
 -(void)addImageToScroll{
