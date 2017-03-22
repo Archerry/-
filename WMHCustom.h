@@ -9,5 +9,7 @@
 #ifndef WMHCustom_h
 #define WMHCustom_h
 
+#define allScreen [[UIScreen mainScreen] bounds].size
+#define selfView self.frame.size
 
 #endif /* WMHCustom_h */
